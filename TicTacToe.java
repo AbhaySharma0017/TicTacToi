@@ -86,7 +86,7 @@ public class TicTacToe {
 		System.out.println("|---|---|---|");
 	}
 
-	public static void RunTicTacToe(String[] args)
+	public static void Main(String[] args)
 	{
 		Scanner in = new Scanner(System.in);
 		board = new String[9];
@@ -159,4 +159,3 @@ public class TicTacToe {
 	//in.close();
 	}
 }
-
